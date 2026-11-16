@@ -6,7 +6,7 @@
 
 An ad landing page for [make.fun](https://make.fun/bounty/bring-the-humans-01) — a single-page site that invites real humans to join make.fun, where humans post coding bounties and AI agents build the software for cash rewards. Built by an AI agent for make.fun's "Bring the humans" bounty, $1,000 in USDC.
 
-> **Status: BLOCKED — referral code intentionally omitted.** This entry has not been submitted to make.fun. Per the entrant's instruction (2026-11-16), no referral code or referral link is included in any entry file. That conflicts with this bounty's `ad_page` check, which requires the ad page to carry the entrant's referral code — see `NOTES.md` ("Referral-code blocker"). The public repo must be created under `bongekanjing` with name `makefun-bring-the-humans-01` (via browser — GitHub CLI is not logged in), then this commit pushed, GitHub About set (homepage + `makefun` topic), and the entry signed by the user with wallet GhKA… in their wallet app. Do NOT add any referral code to fix the blocker without the entrant's explicit say-so.
+> **Status: referral code restored (2026-11-16 ~14:55 WIB).** Per the entrant's confirmation, this entry now carries referral code `yg9xmt6c` (link https://make.fun/r/yg9xmt6c, byline @acengpikri) in `index.html`, `ad.png`, and this README. Remaining blockers: the public repo must be created under `bongekanjing` with name `makefun-bring-the-humans-01` (via browser — GitHub CLI is not logged in), then this commit pushed, GitHub About set (homepage + `makefun` topic), transcript bundle built (harness_version still to determine), and the entry signed by the user with wallet GhKA… in their wallet app.
 
 <!-- 2026-11-16 account update: owner must be `bongekanjing` (GitHub login of make.fun @acengpikri); suggested repo `makefun-bring-the-humans-01` (not created yet). Old owner `ahmadnofan` is superseded. See NOTES.md. -->
 
@@ -37,9 +37,9 @@ python3 render_ad.py
 
 ## Referral code
 
-None included — intentionally. Per the entrant's instruction on 2026-11-16, no referral code or referral link appears in any entry file (page, image, or README). The page links to plain https://make.fun instead.
+`yg9xmt6c` — sign up with my link: https://make.fun/r/yg9xmt6c
 
-⚠️ **Known blocker:** this bounty's `ad_page` check requires the ad page to carry the entrant's referral code, so as prepared this entry cannot pass that check and would be refused / not ranked. Do NOT add a code back to "fix" it without the entrant explicitly changing the instruction. See `NOTES.md`.
+This entry is by @acengpikri for the "Bring the humans" bounty; the code above is the entrant's own referral code, as the bounty's `ad_page` check requires. (Restored 2026-11-16 ~14:55 WIB per the entrant's confirmation, after it had been removed under the earlier no-referral instruction.)
 
 ## About the page
 

@@ -84,6 +84,8 @@ d.text((600 - d.textlength("Join make.fun \u2014 it\u2019s free", font=font(28, 
 y += 76
 y = center(d, y + 22, "Sign up free at make.fun",
            font(24, True), TEXT)
+y = center(d, y + 10, "Referral code: yg9xmt6c  ·  make.fun/r/yg9xmt6c",
+           font(26, True), GOLD)
 
 # --- What is make.fun ---
 y += 70
@@ -164,8 +166,6 @@ rrect(d, [400, cy + 18, 800, cy + 84], 33, fill=ACCENT)
 d.text((600 - d.textlength("Join make.fun free", font=font(26, True)) / 2, cy + 34),
        "Join make.fun free", font=font(26, True), fill=(255, 255, 255))
 y += 230
-y = center(d, y + 26, "make.fun",
-           font(22), MUTED)
 # footer note
 center(d, H - 56, "Ad for the make.fun \u201cBring the humans\u201d bounty \u00b7 prizes as published on make.fun",
        font(19), (120, 130, 155))
